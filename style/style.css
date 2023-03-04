@@ -49,9 +49,9 @@ body {
 }
 
 .navbar-links li a:hover {
-    background-color: #e97474;
-    color: #fff;
-   transition: 2s;
+    color: #e97474;
+    transform: scale(1.5);
+   transition: 1.5s ease-in-out;
 }
 
 .toggle-btn {
@@ -67,9 +67,9 @@ body {
 
 .toggle-btn .bar {
     background-color: #ff0606;
-    height: 4px;
+    height: 2px;
     width:100%;
-    border-radius: 10px;
+    
 }
 
 @media (max-width: 768px) {
@@ -86,10 +86,10 @@ body {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        padding: .4rem;
     }
 
-    .navbar-links ul {
-        width: 100%;
+    .navbar-links ul {  
         flex-direction: column;
     }
 
@@ -103,7 +103,6 @@ body {
 
     .navbar-links.active {
         display: flex;
-       /* height: 100vh; */
        justify-content: center;
        align-items: center;
        font-size: 2rem;
@@ -112,20 +111,19 @@ body {
     }
 
     .toggle-btn.active .bar:nth-child(2){
-        opacity: 0;
-        
+        opacity: 0;        
     }
     .toggle-btn.active .bar:nth-child(1){
-        transform: translateY(9px) rotate(50deg);
-        transition: 1.2s;
+        transform: translateY(9.5px) rotate(50deg);
+        transition: 1s ease-in-out;
     }
     .toggle-btn.active .bar:nth-child(3){
-        transform: translateY(-9px) rotate(-50deg);
-        transition: 1.2s;
+        transform: translateY(-9.5px) rotate(-50deg);
+        transition: 1s ease-in-out;
     }
 
     .brand-name h2 {
-        font-size: 1rem;
+        font-size: .8rem;
     }
     
    
@@ -490,17 +488,18 @@ body {
 }
 
 .wrapper {
-    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+    box-shadow: 0 4px 18px 0 #fffa, 0 6px 20px 0 #fffa;
 }
 .wrapper > * {
     padding: 1em;
+    width: 100%;
 }
 
 .info{
-    background: linear-gradient(90deg, #e97474 , #182848);
+    background-color: #fff;
 }
 .info h1 {
-    color: #fff;
+    color: #000a;
     font-size: 2rem;
     text-decoration: underline;
     text-align: center;
@@ -511,22 +510,34 @@ body {
     text-align: center;
     margin: 1rem 0 1rem 0;
     font-size: 1.2rem;
-    color: #fff;
+    color: #000a;
 }
 
 .social {
     margin-right: auto;
     letter-spacing: 5px;
     font-size: 35px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr 1fr 1fr);
 }
 
-.social a .fa {
-    color: #fff;
-    
+.social .icon {
+    color:#4c57f8;
 }
+
+.social a{
+    color: #fff;    
+}
+
+.info a:hover {
+    color: #FFD700;
+    transform: scale(1.2);
+    transition: 1s;
+}
+    
 
  .contact {
-    background: linear-gradient(90deg, #e97474 , #182848);
+    background: linear-gradient(180deg, #FA8072 , #F08080);
     
  }
 
@@ -562,7 +573,7 @@ body {
  }
 
  .contact form button {
-    background: linear-gradient(90deg, #4b6cb7 , #182848);
+    background:#000a;
     color: #fff;
     border: 0 ;
     font-size: larger;
@@ -570,10 +581,10 @@ body {
  }
 
 .contact form button:hover , .contact form button:focus {
-    background: #000a;
+    background:#A9A9A9;
     color: #fff;
     outline: 0;
-    transition: background-color 2s ease-out;
+    transition: 1s ease-out;
     cursor: pointer;
 }
 .contact form input:hover, .contact form textarea:hover{
@@ -586,10 +597,6 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 2rem;
-}
-.info a:hover {
-    color: #4c57f8;
-    transition: 1s;
 }
 
 @media(max-width: 768px) {
@@ -633,10 +640,8 @@ body {
         display: inline-flex;
     }       
     #footer {
-        padding: 0;
-        margin: 0;
+        padding-top: 12rem;
         text-align: center;
         width: 100%;
-    
     }
 }
