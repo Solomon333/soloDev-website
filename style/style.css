@@ -23,7 +23,7 @@ body {
 
 }
 
-.brand-name  {
+.brand-name h2{
     color: #e97474;
     font-size: 1.8rem;
     margin: .5rem;
@@ -66,8 +66,8 @@ body {
 }
 
 .toggle-btn .bar {
-    background-color: #000;
-    height: 3px;
+    background-color: #ff0606;
+    height: 4px;
     width:100%;
     border-radius: 10px;
 }
@@ -76,7 +76,9 @@ body {
    
     .toggle-btn {
         display: flex;
+        
     }
+  
     .navbar-links  {
         display: none;
         width: 100%;
@@ -122,6 +124,9 @@ body {
         transition: 1.2s;
     }
 
+    .brand-name h2 {
+        font-size: 1rem;
+    }
     
    
 
@@ -137,6 +142,7 @@ body {
     align-items: center;
 }
 .header h1 {
+    color: #e97474;
     font-size: 4rem;
 }
 .header p {
@@ -209,18 +215,31 @@ body {
 
 @media (max-width: 768px) {
     .card-text {
-        width: 350px;
-        font-size: 1.2rem;
+        width: 500px;
+        font-size: 1.3rem;
+        margin: 2rem;
+        padding: 4rem;
        
     }
     .card-text p {
-        line-height: 2.2vh;
-        word-spacing: 1px;
-        letter-spacing: 1px;
+        line-height: 1.6rem;
+        word-spacing: 1.4px;
+        letter-spacing: 1.3px;
     }
-    
 
+            
 }
+@media (max-width: 375px) {
+    .card-text {
+        font-size: 1rem;
+        margin: 0;
+        padding: 4rem;
+    }
+} 
+
+
+
+
 
 /*  ------ Portfolio Section -------------- */
 
@@ -442,6 +461,9 @@ body {
     .skill-container {
         grid-template-columns: repeat(2,  1fr);
     }
+    .skill-container {
+        font-size: 1rem;
+    }
 }
 
 /* ------ Contact Section ------*/
@@ -475,16 +497,21 @@ body {
 }
 
 .info{
-    background: #fffa;
+    background: linear-gradient(90deg, #e97474 , #182848);
 }
 .info h1 {
-    font-size: 1.8rem;
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
 }
 
 
-.info h1 , .info p {
+.info p {
     text-align: center;
-    margin: 0 0 1rem 0;
+    margin: 1rem 0 1rem 0;
+    font-size: 1.2rem;
+    color: #fff;
 }
 
 .social {
@@ -494,7 +521,7 @@ body {
 }
 
 .social a .fa {
-    color: #000;
+    color: #fff;
     
 }
 
@@ -557,37 +584,25 @@ body {
 }
 .info  a {
     text-decoration: none;
-    color: #e22b2b;
+    color: #fff;
     font-size: 2rem;
 }
 .info a:hover {
-    color: #fff;
+    color: #4c57f8;
     transition: 1s;
 }
 
-@media(min-width: 768px) {
-    
-   
-    .wrapper {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-    }
-
-    .wrapper > * {
-        padding: 1em;
-    }
-    .contact {
-        font-size: 20px;
-    }
-
-    .info h1 , .info  {
-        text-align: center;
-    }
-    .info p {
+@media(max-width: 768px) {
+    .info a {
         font-size: 1rem;
         text-align: center;
     }
-
+    .info p  {
+        font-size: 1rem;
+    }
+    .info h1 {
+        font-size: 1.2rem;
+    }
 }
 
 
