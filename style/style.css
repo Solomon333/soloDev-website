@@ -241,7 +241,7 @@ body {
 
 /*  ------ Portfolio Section -------------- */
 
-#portfolio {
+#work {
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
@@ -251,13 +251,13 @@ body {
 
     
 }
-#portfolio h2 {
+#work h2 {
     font-size: 2.5rem;
     color: #fff;
     text-align: center;
 }
 
-#portfolio .experiance {
+#work .experiance {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -312,7 +312,7 @@ body {
 
 @media (max-width: 768px) {
 
-    #portfolio .experiance {
+    #work .experiance {
         display: grid;
         justify-content: center;
         align-items: center;
