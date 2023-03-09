@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;}
+    font-family: 'Inconsolata', monospace;
+}
 body {
     background-image: url(../images/tech1.jpg);
     
@@ -140,7 +143,8 @@ body {
     align-items: center;
 }
 .header h1 {
-    color: #e97474;
+    color:#BC8F8F;
+    font-weight: bold;
     font-size: 4rem;
 }
 .header p {
@@ -224,6 +228,7 @@ body {
         word-spacing: 1.4px;
         letter-spacing: 1.3px;
     }
+  
 
             
 }
@@ -318,8 +323,11 @@ body {
         align-items: center;
         grid-template-columns: 1fr  ;
         gap: 8rem;
-        padding-top: 5rem;
+        padding-top: 10rem;
         
+    }
+    #work .header {
+        padding-top: 15rem;
     }
     .card img {
         width: 100%;
@@ -342,25 +350,6 @@ body {
     padding-top: 20px;
 }
 
-.skill-header {
-    text-align: center;
-    color: #fff;
-    padding: 1rem;
-    position: relative;
-    font-size: 2rem;
-}
-
-.skill-header::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 200px;
-    background-color: #2ecc71;    
-}
-
 .skill-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr );
@@ -369,11 +358,8 @@ body {
     text-align: center;
     grid-gap: 1rem;
     padding: 1rem 80px;
-    font-size: 1.2rem;
-    
+    font-size: 1.2rem;    
 }
-
-
 
 .skill-box {
     padding: 1rem;
@@ -500,7 +486,8 @@ body {
 }
 .info h1 {
     color: #000a;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
     text-decoration: underline;
     text-align: center;
 }
@@ -509,7 +496,8 @@ body {
 .info p {
     text-align: center;
     margin: 1rem 0 1rem 0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
     color: #000a;
 }
 
