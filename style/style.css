@@ -69,12 +69,14 @@ html {
     justify-content: space-between;
     width: 30px;
     height: 21px;
+    cursor: pointer;
 }
 
 .toggle-btn .bar {
     background-color: #ff0606;
     height: 2px;
     width:100%;
+   
     
 }
 
@@ -176,13 +178,13 @@ html {
 @media (max-width: 768px) {
 
     .header h1 {
-        font-size: 3rem;
-    }
-    .header p {
         font-size: 2rem;
     }
+    .header p {
+        font-size: 1.3rem;
+    }
     .header::after{
-        width: 300px;
+        width: 200px;
     }
  
 }
@@ -193,7 +195,6 @@ html {
 
 
 #about {
-    
     height: 80vh;
     display: grid;
     justify-content: center;
@@ -201,7 +202,8 @@ html {
  
 }
 #about .header {
-    margin-bottom: 4rem;
+    margin-top: 34px;
+    padding-top: 34px;
 }
 .card-text {
     background-color: #e97474aa;
@@ -210,7 +212,7 @@ html {
     width: 800px;
     font-size: 1.7rem;
     font-weight: bold;
-    padding: 1rem 2rem;
+    padding: 10px  10px;
 }
 .card-text p {
     line-height: 4vh;
@@ -220,12 +222,13 @@ html {
 
 @media (max-width: 768px) {
     .card-text {
-        width: 500px;
+        width: 400px;
         font-size: 1.3rem;
-        margin: 2rem;
-        padding: 4rem;
+        margin: 1rem;
+        padding: 1rem;
        
     }
+  
     .card-text p {
         line-height: 1.6rem;
         word-spacing: 1.4px;
@@ -628,6 +631,11 @@ html {
     pointer-events: auto;
     bottom: 32px;
 
+}
+.backtoTop:hover {
+    color: #ddd;
+    background: #e97474;
+    transition: 1s;
 }
 
 /* ----------Footer Section --------- */
