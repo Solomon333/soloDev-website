@@ -8,6 +8,7 @@
 }
 body {
     background-image: url(../images/tech1.jpg);
+   
     
 }
 html {
@@ -74,7 +75,7 @@ html {
 
 .toggle-btn .bar {
     background-color: #ff0606;
-    height: 2px;
+    height: 4px;
     width:100%;
    
     
@@ -206,48 +207,36 @@ html {
     padding-top: 34px;
 }
 .card-text {
-    background-color: #e97474aa;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     border: solid 4px #fff;
     width: 800px;
-    font-size: 1.7rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: bolder;
     padding: 10px  10px;
-}
-.card-text p {
+    border-radius: 10px;
+    box-shadow:   15px 1px  #2ecc71;
     line-height: 4vh;
-    word-spacing: 1.2px;
-    letter-spacing: 1.2px;
+    word-wrap: normal;
+    word-spacing: 2px;
+    letter-spacing: 2px;
 }
+
 
 @media (max-width: 768px) {
     .card-text {
         width: 400px;
         font-size: 1.3rem;
-        margin: 1rem;
-        padding: 1rem;
-       
-    }
-  
-    .card-text p {
+        padding: 0;
+        margin: 0;
         line-height: 1.6rem;
         word-spacing: 1.4px;
         letter-spacing: 1.3px;
-    }
-  
-
-            
+    }    
+    #about .header {
+        padding-top: 14px;
+    }   
 }
-@media (max-width: 375px) {
-    .card-text {
-        font-size: 1rem;
-        margin: 0;
-        padding: 4rem;
-    }
-} 
-
-
-
 
 
 /*  ------ Portfolio Section -------------- */
