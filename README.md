@@ -9,7 +9,7 @@ include:
 - contact form - using formspree.
 - tech stack section.
 
-built using HTML , CSS and JavaScript + responsive design.
+- built using HTML , CSS and JavaScript + responsive design.
 used grid tamplate.
 
 LINK :
