@@ -6,7 +6,7 @@ include:
 
 - portfolio .
 - about me section. 
-- contact form - using formspree.
+- contact form section -  formspree.
 - tech stack section.
 
 - built using HTML , CSS and JavaScript + responsive design.
