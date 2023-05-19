@@ -4,10 +4,10 @@ Personal website :
 
 include:
 
-- portfolio .
-- about me section. 
-- contact form section -  formspree.
-- tech stack section.
+- Portfolio .
+- About me section. 
+- Contact form section -  formspree.
+- Tech stack section.
 
 - built using HTML , CSS and JavaScript + responsive design.
 used grid tamplate.
