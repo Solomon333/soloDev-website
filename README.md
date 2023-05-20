@@ -12,6 +12,6 @@ include:
 - built using HTML , CSS and JavaScript + responsive design.
 used grid tamplate.
 
-LINK :
+Link :
 
 https://cute-queijadas-6bb51d.netlify.app
