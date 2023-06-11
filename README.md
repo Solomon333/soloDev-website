@@ -1,4 +1,4 @@
-# soloDev-website
+# SoloDev-Website
 
 Personal website :
 
