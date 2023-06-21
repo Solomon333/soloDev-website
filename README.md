@@ -2,7 +2,6 @@
 
 Personal website :
 
-include:
 
 - Portfolio .
 - About me section. 
