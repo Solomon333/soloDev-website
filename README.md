@@ -11,6 +11,4 @@ Personal website :
 - built using HTML , CSS and JavaScript + responsive design.
 used grid tamplate.
 
-Link :
-
-https://cute-queijadas-6bb51d.netlify.app
+Link : https://cute-queijadas-6bb51d.netlify.app
