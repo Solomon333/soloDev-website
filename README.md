@@ -8,7 +8,7 @@ Personal website :
 - Contact form section.
 - Tech stack section.
 
-- HTML , CSS and JavaScript + responsive design.
+- built using HTML , CSS and JavaScript + responsive design.
 
 
 Link : https://cute-queijadas-6bb51d.netlify.app
