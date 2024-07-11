@@ -1,17 +1,14 @@
-# soloDev-website
+# SoloDev-Website
 
 Personal website :
 
-include:
 
-- portfolio .
-- about me section. 
-- contact form - using formspree.
-- tech stack section.
+- Portfolio .
+- About me section. 
+- Contact form section.
+- Tech stack section.
 
-built using HTML , CSS and JavaScript + responsive design.
-used grid tamplate.
+- built using HTML , CSS and JavaScript + responsive design.
 
-LINK :
 
-https://cute-queijadas-6bb51d.netlify.app
+Link : https://cute-queijadas-6bb51d.netlify.app
