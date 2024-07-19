@@ -4,7 +4,7 @@ Personal website :
 
 
 - Portfolio 
-- About me section. 
+- About me section
 - Contact form section.
 - Tech stack section.
 
