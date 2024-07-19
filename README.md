@@ -5,7 +5,7 @@ Personal website :
 
 - Portfolio 
 - About me section
-- Contact form section.
+- Contact form section
 - Tech stack section.
 
 - built using HTML , CSS and JavaScript + responsive design.
