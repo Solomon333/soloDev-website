@@ -3,7 +3,7 @@
 Personal website :
 
 
-- Portfolio .
+- Portfolio 
 - About me section. 
 - Contact form section.
 - Tech stack section.
