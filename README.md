@@ -1,6 +1,6 @@
 # SoloDev-Website
 
-Personal website :
+Personal website 
 
 
 - Portfolio 
