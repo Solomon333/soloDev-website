@@ -9,7 +9,7 @@ Personal website
 - Tech stack section
   
 
-- built using HTML , CSS and JavaScript + responsive design.
+- built HTML , CSS and JavaScript + responsive design.
 
 
 Link : https://cute-queijadas-6bb51d.netlify.app
